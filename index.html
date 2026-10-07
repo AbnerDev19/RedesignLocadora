@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Futura Locações | Áudio, Vídeo e Informática para Eventos em Brasília</title>
+    <!-- Tailwind CSS (Framework moderno de design) -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Ícones FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        futurared: '#F51E39',
+                        futuradark: '#111827',
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans antialiased selection:bg-futurared selection:text-white">
+
+    <!-- Navegação -->
+    <nav class="bg-white shadow-md fixed w-full z-50 top-0">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-20 items-center">
+                <div class="flex-shrink-0 flex items-center">
+                    <span class="font-bold text-2xl text-futuradark tracking-tight">FUTURA <span class="text-futurared">LOCAÇÕES</span></span>
+                </div>
+                <div class="hidden md:flex space-x-8 items-center">
+                    <a href="#equipamentos" class="text-gray-600 hover:text-futurared font-medium transition">Equipamentos</a>
+                    <a href="#diferenciais" class="text-gray-600 hover:text-futurared font-medium transition">Diferenciais</a>
+                    <a href="#contato" class="text-gray-600 hover:text-futurared font-medium transition">Contato</a>
+                    <a href="https://wa.me/556137720806" class="bg-futurared text-white px-6 py-2 rounded-full font-bold hover:bg-red-700 shadow-lg transition flex items-center gap-2">
+                        <i class="fab fa-whatsapp text-lg"></i> (61) 3772-0806
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="relative bg-futuradark text-white pt-32 pb-20 lg:pt-48 lg:pb-32 overflow-hidden">
+        <div class="absolute inset-0 opacity-20 bg-[url('https://images.unsplash.com/photo-1505373877841-8d25f7d46678?ixlib=rb-4.0.3&auto=format&fit=crop&w=2000&q=80')] bg-cover bg-center"></div>
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center lg:text-left flex flex-col lg:flex-row items-center">
+            <div class="lg:w-1/2">
+                <span class="text-futurared font-bold tracking-widest uppercase text-sm mb-4 block">Eventos Corporativos em Brasília</span>
+                <h1 class="text-4xl md:text-6xl font-extrabold leading-tight mb-6">
+                    Tecnologia de ponta para o <span class="text-futurared">sucesso do seu evento.</span>
+                </h1>
+                <p class="text-lg md:text-xl text-gray-300 mb-8 max-w-2xl mx-auto lg:mx-0">
+                    Locação de notebooks, painéis de LED, áudio profissional e agora com exclusividade: <strong class="text-white">Internet Starlink</strong> para o seu evento.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
+                    <a href="https://wa.me/556137720806" class="bg-futurared text-white px-8 py-4 rounded-full font-bold text-lg hover:bg-red-700 shadow-red-500/30 shadow-lg transition text-center">
+                        Solicitar Orçamento Rápido
+                    </a>
+                </div>
+            </div>
+            <div class="lg:w-1/2 mt-12 lg:mt-0 grid grid-cols-2 gap-4">
+                <div class="bg-white/10 backdrop-blur-md p-6 rounded-2xl border border-white/20 text-center">
+                    <h3 class="text-4xl font-black text-futurared mb-2">20+</h3>
+                    <p class="text-sm font-medium text-gray-200 uppercase tracking-wide">Anos de Excelência</p>
+                </div>
+                <div class="bg-white/10 backdrop-blur-md p-6 rounded-2xl border border-white/20 text-center">
+                    <h3 class="text-4xl font-black text-futurared mb-2">18k</h3>
+                    <p class="text-sm font-medium text-gray-200 uppercase tracking-wide">Locações de Sucesso</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Equipamentos (Catálogo) -->
+    <section id="equipamentos" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-futuradark mb-4">Nosso Catálogo de Soluções</h2>
+                <p class="text-gray-600 max-w-2xl mx-auto">Tudo o que você precisa para viabilizar congressos, palestras e feiras com segurança e praticidade.</p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Card 1 -->
+                <div class="bg-gray-50 rounded-2xl p-8 border border-gray-100 hover:shadow-xl transition group">
+                    <div class="w-14 h-14 bg-red-100 text-futurared rounded-xl flex items-center justify-center text-2xl mb-6 group-hover:scale-110 transition">
+                        <i class="fas fa-laptop"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-futuradark mb-3">Informática Premium</h3>
+                    <p class="text-gray-600 mb-4">Notebooks, Macbooks, iMacs e computadores de alta performance. As melhores marcas com diversas configurações.</p>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="bg-gray-50 rounded-2xl p-8 border border-gray-100 hover:shadow-xl transition group">
+                    <div class="w-14 h-14 bg-red-100 text-futurared rounded-xl flex items-center justify-center text-2xl mb-6 group-hover:scale-110 transition">
+                        <i class="fas fa-satellite-dish"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-futuradark mb-3">Internet Starlink</h3>
+                    <p class="text-gray-600 mb-4">Chega de conexões lentas ou instáveis! Tenha todo o poder e velocidade da internet via satélite Starlink no seu evento.</p>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="bg-gray-50 rounded-2xl p-8 border border-gray-100 hover:shadow-xl transition group">
+                    <div class="w-14 h-14 bg-red-100 text-futurared rounded-xl flex items-center justify-center text-2xl mb-6 group-hover:scale-110 transition">
+                        <i class="fas fa-tv"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-futuradark mb-3">Áudio, Vídeo e TVs</h3>
+                    <p class="text-gray-600 mb-4">TVs Smart 4K de 20" a 85", Projetores de até 6.000 lumens, Microfones de lapela e equipamentos de sonorização profissional.</p>
+                </div>
+
+                <!-- Card 4 -->
+                <div class="bg-gray-50 rounded-2xl p-8 border border-gray-100 hover:shadow-xl transition group">
+                    <div class="w-14 h-14 bg-red-100 text-futurared rounded-xl flex items-center justify-center text-2xl mb-6 group-hover:scale-110 transition">
+                        <i class="fas fa-tablet-alt"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-futuradark mb-3">Tablets e iPads</h3>
+                    <p class="text-gray-600 mb-4">Grande variedade de iPads com ou sem internet (4G). Inclui pedestais e suportes de chão perfeitos para totens.</p>
+                </div>
+
+                <!-- Card 5 -->
+                <div class="bg-gray-50 rounded-2xl p-8 border border-gray-100 hover:shadow-xl transition group">
+                    <div class="w-14 h-14 bg-red-100 text-futurared rounded-xl flex items-center justify-center text-2xl mb-6 group-hover:scale-110 transition">
+                        <i class="fas fa-print"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-futuradark mb-3">Apoio a Eventos</h3>
+                    <p class="text-gray-600 mb-4">Impressoras corporativas Brother, Filmadoras, Porta Banners, Flip Charts e Lista Digital de Convidados.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Diferenciais -->
+    <section id="diferenciais" class="py-20 bg-futuradark text-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+                <div>
+                    <h2 class="text-3xl md:text-4xl font-bold mb-6">Por que grandes empresas escolhem a <span class="text-futurared">Futura?</span></h2>
+                    <ul class="space-y-4">
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-futurared mt-1 mr-3 text-xl"></i>
+                            <p class="text-gray-300"><strong class="text-white">Aluguel Fácil:</strong> Burocracia mínima para aprovação de locações diárias, semanais ou mensais.</p>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-futurared mt-1 mr-3 text-xl"></i>
+                            <p class="text-gray-300"><strong class="text-white">Prontidão 24h:</strong> Atendimento ágil e antecipação de imprevistos com equipe especializada.</p>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-futurared mt-1 mr-3 text-xl"></i>
+                            <p class="text-gray-300"><strong class="text-white">Logística Completa:</strong> Entrega, instalação e retirada no local com teste e orientação de uso.</p>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-futurared mt-1 mr-3 text-xl"></i>
+                            <p class="text-gray-300"><strong class="text-white">Vantagem Fiscal:</strong> Despesas com locação são 100% dedutíveis do imposto de renda.</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="relative">
+                    <img src="https://images.unsplash.com/photo-1540575467063-178a50c2df87?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Evento corporativo" class="rounded-2xl shadow-2xl">
+                    <div class="absolute -bottom-8 -left-8 bg-futurared p-6 rounded-2xl shadow-xl max-w-xs">
+                        <p class="text-white font-bold text-lg leading-tight">"Equipamentos sempre modernos, dispensando gastos com manutenção."</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer / Contato -->
+    <footer id="contato" class="bg-white border-t border-gray-200 pt-16 pb-8">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
+                <div>
+                    <h3 class="font-bold text-2xl text-futuradark mb-4">FUTURA <span class="text-futurared">LOCAÇÕES</span></h3>
+                    <p class="text-gray-600 mb-4">Atendendo Pessoas Físicas e Jurídicas com excelência em Brasília.</p>
+                    <div class="flex space-x-4">
+                        <span class="text-xl text-futuradark"><i class="fab fa-cc-visa"></i></span>
+                        <span class="text-xl text-futuradark"><i class="fab fa-cc-mastercard"></i></span>
+                        <span class="text-xl text-futuradark"><i class="fa-brands fa-pix"></i></span>
+                    </div>
+                </div>
+                
+                <div>
+                    <h4 class="font-bold text-lg text-futuradark mb-4">Atendimento</h4>
+                    <p class="text-gray-600 mb-2"><i class="fas fa-phone text-futurared w-5"></i> (61) 3772-0806</p>
+                    <p class="text-gray-600 mb-2"><i class="fab fa-whatsapp text-futurared w-5"></i> (61) 3772-0806</p>
+                    <p class="text-gray-600 mt-4 text-sm"><strong class="text-futuradark">Segunda à Sexta:</strong> 07h às 20h</p>
+                    <p class="text-gray-600 text-sm"><strong class="text-futuradark">Sábados:</strong> 07h às 14h</p>
+                </div>
+
+                <div>
+                    <h4 class="font-bold text-lg text-futuradark mb-4">Localização</h4>
+                    <p class="text-gray-600 text-sm leading-relaxed">
+                        SHCN CL 109 Bloco B subsolo<br>
+                        Asa Norte Comércio Local 109<br>
+                        SHOW SELF STORAGE<br>
+                        Brasília - DF, 70752-520
+                    </p>
+                </div>
+            </div>
+            
+            <div class="border-t border-gray-200 pt-8 flex flex-col md:flex-row justify-between items-center text-sm text-gray-500">
+                <p>&copy; 2023 Futura Soluções em Locações. Todos os direitos reservados.</p>
+                <a href="#" class="hover:text-futurared transition mt-4 md:mt-0">Política de Privacidade</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Botão Fixo WhatsApp -->
+    <a href="https://wa.me/556137720806" class="fixed bottom-6 right-6 bg-[#25D366] text-white p-4 rounded-full shadow-2xl hover:scale-110 transition-transform z-50 flex items-center justify-center">
+        <i class="fab fa-whatsapp text-3xl"></i>
+    </a>
+
+</body>
+</html>
